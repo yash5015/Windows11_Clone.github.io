@@ -1,0 +1,49 @@
+body {
+  background-image: url("assets/login2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.logincontainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -70px;
+}
+.logincontainer img {
+  border-radius: 50%;
+  opacity: 0.8;
+}
+
+h1 {
+  font-family: "Segoe UI";
+  font-size: 32px;
+  font-weight: 350;
+  letter-spacing: 3.5px;
+  line-height: 35.2px;
+  color: white;
+}
+a {
+  text-decoration: none;
+}
+.button {
+  width: 115px;
+  height: 40px;
+  font-family: "Segoe UI";
+  font-size: 15px;
+  border: 1.5px solid white;
+  color: white;
+  background-color: #737e88;
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button:hover {
+  cursor: pointer;
+}

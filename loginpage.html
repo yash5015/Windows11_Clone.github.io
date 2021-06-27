@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>loginpage</title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <div class="logincontainer">
+      <img class="usericon" src="assets/usericon.png" alt="" />
+      <h1>Yash</h1>
+      <a class="button" href="index.html">Sign in</a>
+    </div>
+  </body>
+  <script>
+    let dell = document.getElementsByTagName("a");
+    dell.addEventListener("onClick", function () {
+      setTimeout(function () {
+        //Do what the button normally does
+        alert("hi");
+      }, 5000);
+    });
+  </script>
+</html>
